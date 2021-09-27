@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FruitServer</name>
+    </assembly>
+    <members>
+        <member name="M:FruitServer.Controllers.FruitsController.Get(System.String)">
+            <summary>
+            Get the list of all the fruit
+            </summary>
+            <param name="substring">This is a filter string using contains</param>
+            <returns></returns>
+        </member>
+        <member name="M:FruitServer.Controllers.WeatherForecastController.Get">
+            <summary>
+            Return weatherforecast for the next 5 days
+            </summary>
+            <returns>Anything</returns>
+        </member>
+        <member name="M:FruitServer.Controllers.WeatherForecastController.Getv2">
+            <summary>
+            Return weatherforecast for the next 5 days
+            </summary>
+            <returns>Anything</returns>
+        </member>
+        <member name="T:FruitServer.Fruit">
+            <summary>
+            A fruit consisting only of a type
+            </summary>
+        </member>
+        <member name="P:FruitServer.Fruit.typeOfFruit">
+            <summary>
+            The actual type of fruit
+            </summary>
+        </member>
+        <member name="P:FruitServer.WeatherForecast.Date">
+            <summary>
+            Date of forecast
+            </summary>
+        </member>
+        <member name="P:FruitServer.WeatherForecast.TemperatureC">
+            <summary>
+            Temperature in Celsius
+            </summary>
+        </member>
+    </members>
+</doc>
